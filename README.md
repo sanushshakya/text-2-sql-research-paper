@@ -66,6 +66,10 @@ python analyse.py results/real/final.jsonl --out results/summary.md
 
 ## Layout
 
-`t2s/` pipeline (schema, prompts, validate, pipeline, evaluate, llm) - `questions/` test and dev sets with gold SQL and the
-documented meaning of each question - `descriptions/` table and column descriptions used by B and C - `db/` data scripts -
-`tests/` offline tests - `run_experiment.py`, `analyse.py` - `results/real/` raw records (one JSON line per answer).
+- `t2s/` pipeline (schema, prompts, validate, pipeline, evaluate, llm)
+- `questions/` test and dev sets with gold SQL and the documented meaning of each question
+- `descriptions/` table and column descriptions used by B and C 
+- `db/` data scripts 
+- `tests/` offline tests 
+- `run_experiment.py`, `analyse.py` 
+- `results/real/` raw records (one JSON line per answer).
