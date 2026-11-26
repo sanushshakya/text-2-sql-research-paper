@@ -1,0 +1,18 @@
+{
+  "tables": {
+    "categories": {"description": "Product categories (for example beverages, condiments, seafood). Clients may call these product groups or types."},
+    "customers": {"description": "Companies that buy from the business (clients, buyers, accounts), with contact person and location.", "columns": {"company_name": "name of the customer company", "contact_name": "person at the customer to contact"}},
+    "customer_customer_demo": {"description": "Link table between customers and customer demographic types. Not used in sales questions."},
+    "customer_demographics": {"description": "Customer demographic type descriptions. Not used in sales questions."},
+    "employees": {"description": "Staff who handle orders (sales representatives), with job title, hire date, location and who they report to.", "columns": {"reports_to": "employee_id of the manager"}},
+    "employee_territories": {"description": "Link table assigning employees to sales territories."},
+    "order_details": {"description": "Line items of each order: product, unit price charged, quantity and discount. Revenue is unit_price * quantity * (1 - discount).", "columns": {"unit_price": "price per unit charged on this order line", "discount": "fraction between 0 and 1 taken off the line price"}},
+    "orders": {"description": "Customer orders: who ordered, which employee handled it, order, required and shipped dates, shipper, freight cost and shipping address.", "columns": {"freight": "shipping cost of the order", "ship_via": "shipper_id of the carrier used", "shipped_date": "date the order left the warehouse; null if not shipped yet"}},
+    "products": {"description": "Products for sale (items, goods): name, supplier, category, price and stock levels.", "columns": {"unit_price": "current list price", "units_in_stock": "stock currently available", "discontinued": "1 if the product is no longer sold"}},
+    "region": {"description": "Four sales regions. Used only with territories."},
+    "shippers": {"description": "Shipping companies (carriers, couriers) that deliver orders."},
+    "suppliers": {"description": "Companies that supply the products (vendors), with contact details and location."},
+    "territories": {"description": "Sales territories, each inside a region."},
+    "us_states": {"description": "Reference list of US states. Not used in sales questions."}
+  }
+}

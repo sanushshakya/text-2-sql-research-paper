@@ -1,0 +1,15 @@
+{
+  "tables": {
+    "customers": {"description": "Registered shoppers (clients, buyers, users) of a UK online grocery shop: name, email, UK city, UK region, postcode area, signup date and whether the account is active.", "columns": {"is_active": "true if the account is still active", "region": "nation within the UK: England, Scotland, Wales or Northern Ireland", "postcode_area": "first part of the customer's UK postcode, for example M4 or EH1"}},
+    "suppliers": {"description": "UK companies that supply the shop's products (vendors, wholesalers) with their city and UK region.", "columns": {"region": "nation within the UK: England, Scotland, Wales or Northern Ireland"}},
+    "categories": {"description": "Product categories (departments, product groups) such as Dairy and Eggs, Bakery or Drinks."},
+    "products": {"description": "Grocery items sold in the shop (goods, SKUs): name, category, supplier, selling price in pounds, cost, stock and whether discontinued.", "columns": {"unit_price": "current list price in pounds sterling", "unit_cost": "what the shop pays its supplier for one unit, in pounds", "stock_qty": "units in stock", "discontinued": "true if no longer sold"}},
+    "coupons": {"description": "Discount codes (promotions, vouchers) with a percentage and validity dates."},
+    "orders": {"description": "Customer orders (purchases, baskets): customer, date, status, sales channel and optional coupon. Contains no money amounts; amounts come from order_items.", "columns": {"status": "completed, cancelled or pending", "channel": "web, mobile_app or marketplace"}},
+    "order_items": {"description": "Products on each order with quantity and the price actually paid per unit. Revenue or sales value is quantity * unit_price.", "columns": {"unit_price": "price paid per unit, can differ from products.unit_price"}},
+    "payments": {"description": "Payments for orders: date, method, amount and payment status.", "columns": {"method": "card, paypal or bank_transfer", "payment_status": "paid, refunded or failed", "amount": "amount charged for the whole order"}},
+    "shipments": {"description": "Delivery of completed orders: carrier, shipped date and delivered date (delivery, dispatch, courier)."},
+    "returns": {"description": "Items sent back by customers with date and reason (refund requests, returned goods)."},
+    "reviews": {"description": "Customer ratings (1 to 5) of products with date (feedback, stars)."}
+  }
+}

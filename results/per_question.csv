@@ -1,0 +1,101 @@
+﻿qid,database,difficulty,question,qwen7b_A,qwen7b_B,qwen7b_C,qwen14b_A,qwen14b_B,qwen14b_C
+NW-C01,northwind,complex,What was our revenue in each month of 1997?,0,0,0,0,0,0
+NW-C02,northwind,complex,Which customer spent the most in 1997 and how much was it?,1,0,0,1,0,0
+NW-C03,northwind,complex,"On average, how many days does each shipping company take from order to dispatch?",0,0,0,0,1,1
+NW-C04,northwind,complex,Which salesperson brought in the most revenue overall?,1,0,0,1,0,0
+NW-C05,northwind,complex,"What is the best-selling product, by revenue, in each category?",0,0,0,0,0,0
+NW-C06,northwind,complex,How many customers ordered in both 1996 and 1997?,1,0,0,0,0,0
+NW-C07,northwind,complex,Which products have been bought by customers from at least 17 different countries?,0,1,1,1,1,1
+NW-C08,northwind,complex,What share of our total revenue comes from our five biggest customers?,0,0,0,0,0,0
+NW-C09,northwind,complex,Which month of 1997 was our best for revenue?,0,0,0,0,0,0
+NW-C10,northwind,complex,Which customers ordered in 1996 but didn't order at all in 1997?,1,1,1,0,1,1
+NW-C11,northwind,complex,What's the average order value for customers in each country?,0,0,0,0,0,0
+NW-C12,northwind,complex,Which five suppliers' products have earned us the most revenue?,1,1,1,0,1,1
+NW-C13,northwind,complex,Which employees have handled more orders than the average employee?,1,1,1,1,1,1
+NW-C14,northwind,complex,How many orders included more than 3 different products?,0,0,0,1,1,1
+NW-C15,northwind,complex,Which product's revenue grew the most from 1996 to 1997?,0,0,0,0,0,0
+NW-E01,northwind,easy,How many customers do we have?,1,1,1,1,1,1
+NW-E02,northwind,easy,Which countries do our customers come from?,1,1,1,1,1,1
+NW-E03,northwind,easy,How many products are we still selling?,1,1,1,1,1,1
+NW-E04,northwind,easy,What's our most expensive product and what does it cost?,1,1,1,0,1,1
+NW-E05,northwind,easy,How many orders were placed in 1997?,1,1,1,1,1,1
+NW-E06,northwind,easy,Which of our suppliers are based in Germany?,1,1,1,1,1,1
+NW-E07,northwind,easy,How many people work for us?,1,1,1,1,1,1
+NW-E08,northwind,easy,Which products are out of stock right now?,1,1,1,1,1,1
+NW-E09,northwind,easy,What do we pay on average to ship an order?,1,1,1,1,1,1
+NW-E10,northwind,easy,How many orders still haven't been shipped?,1,1,1,1,1,1
+NW-E11,northwind,easy,Which customers are based in London?,1,1,1,1,1,1
+NW-E12,northwind,easy,How many units are currently on order across all products?,1,1,1,1,1,1
+NW-E13,northwind,easy,Who are our sales representatives?,1,1,1,1,1,1
+NW-E14,northwind,easy,How many of our products cost more than 50?,1,1,1,1,1,1
+NW-E15,northwind,easy,Which shipping companies do we use?,0,0,0,1,1,1
+NW-M01,northwind,medium,How many orders has each customer placed?,1,1,1,0,1,1
+NW-M02,northwind,medium,How many products do we have in each category?,1,1,1,1,1,1
+NW-M03,northwind,medium,Who supplies our beverages?,0,0,0,0,0,0
+NW-M04,northwind,medium,Which employee has handled the most orders?,1,1,1,1,1,1
+NW-M05,northwind,medium,How much revenue did we make in 1997?,0,0,0,1,0,0
+NW-M06,northwind,medium,What are our five best-selling products by units sold?,1,1,1,1,1,1
+NW-M07,northwind,medium,Which German customers have placed more than 10 orders?,1,1,1,1,1,1
+NW-M08,northwind,medium,How many orders went out with each shipping company?,1,1,1,1,1,1
+NW-M09,northwind,medium,Which customers have never ordered anything?,1,1,1,1,1,1
+NW-M10,northwind,medium,What's the average discount we give in each product category?,0,1,1,1,1,1
+NW-M11,northwind,medium,List each employee together with their manager's name.,0,0,0,0,0,0
+NW-M12,northwind,medium,How many orders were shipped after the date the customer wanted them?,1,1,1,1,1,1
+NW-M13,northwind,medium,How much have we spent on freight for each country we ship to?,1,1,1,1,1,1
+NW-M14,northwind,medium,Which suppliers give us more than 3 products?,1,1,1,1,1,1
+NW-M15,northwind,medium,Who are our top 3 customers by total spend?,1,0,0,1,0,0
+NW-M16,northwind,medium,How many different customers ordered something in March 1998?,1,1,1,1,1,1
+NW-M17,northwind,medium,Which product category brings in the most money?,1,1,1,1,1,1
+NW-M18,northwind,medium,How much stock value are we holding in each category?,1,1,1,1,1,1
+NW-M19,northwind,medium,How many territories does each employee cover?,0,1,1,0,1,1
+NW-M20,northwind,medium,Which products come from UK suppliers?,1,1,1,1,1,1
+SH-C01,shopdb,complex,What was our revenue from completed orders in each month of 2025?,0,1,1,0,0,0
+SH-C02,shopdb,complex,"Which customer spent the most on completed orders in 2026, and how much?",0,0,0,1,0,0
+SH-C03,shopdb,complex,What's the average value of a completed order in each sales channel?,0,0,0,0,0,0
+SH-C04,shopdb,complex,What percentage of orders were cancelled in each sales channel?,0,1,1,0,1,1
+SH-C05,shopdb,complex,"What's the best-selling product by units in each category, counting completed orders only?",0,0,0,0,0,0
+SH-C06,shopdb,complex,How many customers placed orders in both 2025 and 2026?,0,0,0,0,0,0
+SH-C07,shopdb,complex,How many customers ordered in 2025 but didn't order at all in 2026?,1,0,0,1,1,1
+SH-C08,shopdb,complex,Which product has the highest return rate?,1,1,1,0,0,0
+SH-C09,shopdb,complex,"On average, how many days pass between a customer signing up and placing their first order?",0,0,0,0,0,0
+SH-C10,shopdb,complex,What share of our completed-order revenue comes from customers in England?,0,1,1,0,0,0
+SH-C11,shopdb,complex,Which carrier has the fastest average delivery for orders placed through the mobile app?,0,1,1,0,0,0
+SH-C12,shopdb,complex,Which product's revenue from completed orders grew the most from 2025 to 2026?,0,1,1,0,0,0
+SH-C13,shopdb,complex,How many completed orders contained products from more than 2 different categories?,0,0,0,0,0,0
+SH-C14,shopdb,complex,"Who are our five biggest customers by spend on completed orders, and how much did each spend?",0,1,1,0,0,0
+SH-C15,shopdb,complex,How much revenue from completed orders did each discount code generate?,0,0,0,0,1,1
+SH-E01,shopdb,easy,How many customers do we have?,1,1,1,1,1,1
+SH-E02,shopdb,easy,How many of our customers are in Manchester?,1,1,1,1,1,1
+SH-E03,shopdb,easy,How many products have been discontinued?,1,1,1,1,1,1
+SH-E04,shopdb,easy,What is our cheapest product?,1,1,1,1,1,1
+SH-E05,shopdb,easy,How many orders were cancelled?,0,1,1,0,1,1
+SH-E06,shopdb,easy,How many orders came in through the mobile app?,0,1,1,0,1,1
+SH-E07,shopdb,easy,What product categories do we have?,1,1,1,1,1,1
+SH-E08,shopdb,easy,How many customer accounts are inactive?,1,1,1,1,1,1
+SH-E09,shopdb,easy,Which discount codes give 20% or more off?,1,1,1,1,1,1
+SH-E10,shopdb,easy,How many items came back because they were damaged?,0,1,1,0,1,1
+SH-E11,shopdb,easy,How many orders were placed in 2025?,1,1,1,1,1,1
+SH-E12,shopdb,easy,How many product reviews gave 5 stars?,1,1,1,1,1,1
+SH-E13,shopdb,easy,How many units do we have in stock across all products?,1,1,1,1,1,1
+SH-E14,shopdb,easy,How many payments failed?,1,1,1,0,1,1
+SH-E15,shopdb,easy,Which carriers do we ship with?,1,1,1,1,1,1
+SH-M01,shopdb,medium,How many orders have we had from each part of the UK?,0,1,1,1,0,0
+SH-M02,shopdb,medium,How many products are there in each category?,1,1,1,1,1,1
+SH-M03,shopdb,medium,What was our revenue from completed orders in 2025?,0,1,1,0,1,1
+SH-M04,shopdb,medium,Which categories have more than 8 products?,1,1,1,1,1,1
+SH-M05,shopdb,medium,What's the average review rating in each product category?,1,1,1,1,1,1
+SH-M06,shopdb,medium,Which sales channel earns us the most from completed orders?,0,1,1,1,1,1
+SH-M07,shopdb,medium,Which customers have placed more than 8 orders?,1,1,1,1,1,1
+SH-M08,shopdb,medium,How many PayPal payments came from customers in Scotland?,0,1,1,0,1,1
+SH-M09,shopdb,medium,Which products have been returned more than twice?,0,1,1,1,1,1
+SH-M10,shopdb,medium,How many orders used each discount code?,1,0,0,1,1,1
+SH-M11,shopdb,medium,What's our most reviewed product?,1,1,1,0,1,1
+SH-M12,shopdb,medium,What's our average profit per unit in each category?,0,0,0,1,1,1
+SH-M13,shopdb,medium,How many customers who signed up in 2024 have placed at least one order?,0,0,0,0,1,1
+SH-M14,shopdb,medium,How many customers have never placed an order?,1,1,1,1,1,1
+SH-M15,shopdb,medium,How many returns have there been for products in the Drinks category?,1,1,1,1,1,1
+SH-M16,shopdb,medium,"On average, how many days does each carrier take from shipping to delivery?",0,1,1,0,0,0
+SH-M17,shopdb,medium,How many of our products does each supplier provide?,1,1,1,0,1,1
+SH-M18,shopdb,medium,How many completed orders have customers in Wales placed?,0,1,1,1,1,1
+SH-M19,shopdb,medium,Which products have an average rating below 3.55?,0,1,1,1,1,1
+SH-M20,shopdb,medium,How many reviews have customers from London written?,1,1,1,1,1,1

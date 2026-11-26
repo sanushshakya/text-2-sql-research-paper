@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+results/real/
+results/dev/
+results/audit/
+results_backup_before_rescore/
+.env
+.pytest_cache/
+.venv/
+venv/
+pytest_cache/
